@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="DummyDataGenerator-MINGOO-21015010.vcxproj" Id="4dc44cd5-f8fd-4df9-938b-eb059a6f103f" />
+</Solution>
