@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# 더미 데이터 생성 결과 (실행할 때마다 생성/갱신됨)
+items.json
+
 # User-specific files
 *.rsuser
 *.suo
