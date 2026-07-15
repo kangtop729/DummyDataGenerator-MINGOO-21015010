@@ -85,7 +85,11 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Serialization\ItemSerialization.cpp" />
     <ClCompile Include="src\Repository\JsonItemAppender.cpp" />
+    <ClCompile Include="src\Generator\DummyItemGenerator.cpp" />
     <ClCompile Include="test\JsonItemAppenderTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'!='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="test\DummyItemGeneratorTest.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'!='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
@@ -94,6 +98,7 @@
     <ClInclude Include="src\Serialization\ItemSerialization.h" />
     <ClInclude Include="src\Repository\IItemAppender.h" />
     <ClInclude Include="src\Repository\JsonItemAppender.h" />
+    <ClInclude Include="src\Generator\DummyItemGenerator.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
